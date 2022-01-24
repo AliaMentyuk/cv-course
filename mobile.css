@@ -1,0 +1,154 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .wrapper{
+max-width: 750px;
+margin: 40px auto;
+padding: 20px;
+
+    }
+    .header-list li{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 23px;
+    }
+    .logo-photo{
+        max-width: 100px;
+    }
+    ul{
+        padding: 0;
+    }
+    p{
+        font-size: 13px;
+    }
+    .skills-soft__container{
+        margin-top: 60px;
+    }
+    .card.soft{
+        margin-top: 0;
+    }
+    .section-image{
+        width: 80%;
+    }
+ }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .wrapper{
+        max-width: 650px;
+        margin: 20px auto;
+    }
+    .header-list li{
+        font-size: 11px;
+    }
+    .logo-name{
+        padding-left: 12px;
+    }
+    h1{
+        font-size: 19px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .skills-container, .skills-soft, .work, .education__container, .course__container,.footer{
+        margin-top: 60px;
+    }
+    .card-education span{
+        font-size: 12px;
+    }
+ }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .wrapper{
+        max-width: 450px;
+        margin: 20px auto;
+    }
+    .header-list{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ .header-nav{
+     width: 40%;
+ }
+ .header-logo{
+     width: 60%;
+ }
+ .logo-photo{
+    max-width: 70px;
+}
+h1{
+    font-size: 15px;
+}
+.skills-container{
+    flex-direction: column;
+}
+.card{
+    margin-bottom: 26px;
+}
+
+.card.soft{
+    width: 100%;
+}
+.card-work{
+    width: 100%;
+}
+.education__container, .skills-soft__container{
+    flex-direction: column;
+}
+.work{
+    flex-direction: column-reverse;
+}
+.card-education, .soft, .card-work{
+    width: 100%;
+}
+.section-image{
+    padding-top: 20px;
+}
+ }
+
+
+/* Extra-Small devices (iphone 5, 320px and up) */
+@media (max-width: 320px) { 
+    .wrapper{
+        max-width: 250px;
+        margin: 20px auto;
+    }
+    .header, .about-me{
+        flex-direction: column;
+    }
+    .header-logo{
+      width: 100%;  
+    } 
+    .header-nav{
+        width: 90%;
+    }
+    .main-content{
+        flex-direction: column;
+    }
+    .column, .column7{
+        width: 100%;
+    }
+    .disabled{
+        display: none;
+    }
+    .card{
+        padding: 20px;
+    }
+ }
+
+
+
+
+

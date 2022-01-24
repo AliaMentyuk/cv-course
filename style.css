@@ -6,6 +6,9 @@ body{
     font-family: 'Roboto Mono', monospace;
     color:#313131;
 }
+/* html, body {
+    min-width: 320px;
+  } */
 p{
     margin: 0;
 }
@@ -59,6 +62,10 @@ flex-direction: row;
 .column{
     width: 50%;
     display: block;
+    text-align: center;
+}
+.column-image{
+    text-align: center;
 }
 h1{
     font-size: 30px;
@@ -83,9 +90,11 @@ h2{
 }
 .column3{
     width: 30%;
+    text-align: center;
 }
 .column7{
     width: 70%;
+    text-align: center;
 }
 .skills-container{
     display: flex;
@@ -104,13 +113,15 @@ h2{
 }
 .card.soft{
     width: 50%;
-    margin-top: 90px;
+    
 }
 .skills-soft{
 margin-top: 90px;
 }
 .skills-soft__container{
     display: flex;
+    align-items: center;
+    margin-top: 90px;
 }
 .card p{
     display: flex;
@@ -123,10 +134,18 @@ margin-top: 90px;
 .work{
     display: flex;
     margin-top: 90px;
+    align-items: center;
+}
+.card__list{
+    padding-top: 10px;
+}
+.work-links{
+    padding-left: 10px;
 }
 .education__container{
     display: flex;
     margin-top: 90px;
+    align-items: center;
 }
 .card-education{
     width: 50%;

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="mobile.css" type="text/css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,12 +40,12 @@
             Hey!<br />
             My name is <span class="selected-text">Alina Siamenava, </span> i'm 22 years old.
           </h1>
-          <div>
+          <div class="description">
             I am a junior <span class="bold-text">frontend developer</span>. My
             goal right now is to learn react and become friends with js :)
           </div>
         </div>
-        <div class="column">
+        <div class="column column-image">
           <img class="section-image" src="img/section-1.png" alt="" />
         </div>
       </div>
@@ -53,18 +54,19 @@
     <main>
       <section class="wrapper about">
         <div class="about-me" id="about">
-          <div class="column3">
+          <div class="column3 disabled">
             <img class="section-image" src="img/section-2.png" alt="" />
           </div>
           <div class="column7">
             <h2>About me</h2>
-            Last year I graduated from the university with a degree in civil
+            <div class="description"> Last year I graduated from the university with a degree in civil
             engineering, but I do not work in my specialty.<br />After
             graduating from university, I decided to try myself in IT. Now I
             continue to study in this area.<br />
             Also now I attend conversational English courses, because I didn’t
             pay enough attention to it at school.<br />
             I quickly learn new things. I consider this to be my main advantage.
+          </div>
           </div>
         </div>
       </section>
@@ -121,10 +123,10 @@
     </div>
     <div class="card card-work">
 <p class="bold-text">◉ Freelance: 
-<p>Landing page for a tutor <a class="bold-text" href="https://aproenglish.com/">aproenglish.com</a></p>
-<p>Website for a knitting factory<a class="bold-text" href="https://bonadifactory.com/">bonadifactory.com</a></p>
-<p>Pet project with figma design(not all functionality added yet)<a class="bold-text" href="https://aliamentyuk.github.io/test/">Engineering</a></p>
-<p>Pet project with figma design(not all functionality added yet)<a class="bold-text" href="https://aliamentyuk.github.io/">Energy Technologies</a></p>
+<p class="card__list">◎ Landing page for a tutor <a class="bold-text work-links" href="https://aproenglish.com/">aproenglish.com</a></p>
+<p class="card__list">◎ Website for a knitting factory<a class="bold-text work-links" href="https://bonadifactory.com/">bonadifactory.com</a></p>
+<p class="card__list">◎ Pet project with figma design(not all functionality added yet)<a class="bold-text work-links" href="https://aliamentyuk.github.io/test/">Engineering</a></p>
+<p class="card__list">◎ Pet project with figma design(not all functionality added yet)<a class="bold-text work-links" href="https://aliamentyuk.github.io/">Energy Technologies</a></p>
 </p>
 
     </div>
@@ -139,8 +141,8 @@
               <span class="light-text">Bachelors degree. Civil engineering.</span>
               <span class="light-text">sep 2016 - jul 2021</span>
             </div>
-            <p class="bold-text">HTML-academy: HTML, CSS, svg basics, animation dynamic effects<a href="https://htmlacademy.ru/">htmlacademy.ru</a></p>
-            <p class="bold-text">JavaScript/DOM/Interfaces<a href="https://learn.javascript.ru/">learn.javascript.ru</a></p>
+            <p class="bold-text card__list">HTML-academy: HTML, CSS, svg basics, animation dynamic effects<a class='work-links' href="https://htmlacademy.ru/">htmlacademy.ru</a></p>
+            <p class="bold-text card__list">JavaScript, DOM, Interfaces<a class='work-links' href="https://learn.javascript.ru/">learn.javascript.ru</a></p>
           </div>
           <div class="column">
             <img class="section-image" src="img/section-5.png" alt="">
