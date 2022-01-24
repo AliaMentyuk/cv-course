@@ -36,13 +36,16 @@ padding: 20px;
     .section-image{
         width: 80%;
     }
+    .skills-card{
+        width: 32%;
+    }
  }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
     .wrapper{
-        max-width: 650px;
+        max-width: 580px;
         margin: 20px auto;
     }
     .header-list li{
@@ -66,6 +69,17 @@ padding: 20px;
     .card-education span{
         font-size: 12px;
     }
+    .card-work p{
+        flex-direction: column;
+    }
+    .skills-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-card{
+        margin-bottom: 25px;
+        width: 50%;
+    }
  }
 
 
@@ -79,23 +93,15 @@ padding: 20px;
         flex-wrap: wrap;
         justify-content: space-between;
     }
- .header-nav{
-     width: 40%;
- }
- .header-logo{
-     width: 60%;
- }
+
  .logo-photo{
     max-width: 70px;
 }
 h1{
     font-size: 15px;
 }
-.skills-container{
-    flex-direction: column;
-}
-.card{
-    margin-bottom: 26px;
+.skills-card{
+    width: 70%;
 }
 
 .card.soft{
@@ -115,6 +121,29 @@ h1{
 }
 .section-image{
     padding-top: 20px;
+}
+
+.header, .about-me{
+    flex-direction: column;
+}
+.header-logo{
+  width: 100%;  
+} 
+.header-nav{
+    width: 90%;
+}
+.main-content{
+    flex-direction: column;
+}
+.column, .column7{
+    width: 100%;
+}
+.disabled{
+    display: none;
+}
+.card{
+    padding: 20px;
+    margin-bottom: 26px;
 }
  }
 
@@ -139,6 +168,9 @@ h1{
     }
     .column, .column7{
         width: 100%;
+    }
+    .skills-card{
+        width: 90%;
     }
     .disabled{
         display: none;
